@@ -1,0 +1,57 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "/Users/agurz/Documents/fsbiometrics-helper/build",
+            "name": "fsbiometrics-helper",
+            "sourceDirectory": "/Users/agurz/Documents/fsbiometrics-helper",
+            "targets": [
+              {
+                "artifacts": [
+                  "/Users/agurz/Documents/fsbiometrics-helper/build/fsbiometrics-helper"
+                ],
+                "buildDirectory": "/Users/agurz/Documents/fsbiometrics-helper/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g   -std=gnu++14",
+                    "includePath": [
+                      {
+                        "path": "/Users/agurz/Documents/fsbiometrics-helper/lib/rpclib/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "fsbiometrics-helper",
+                "linkLanguageFlags": "-g",
+                "linkLibraries": "../lib/rpclib/build/output/lib/librpc.a",
+                "linkerLanguage": "CXX",
+                "name": "fsbiometrics-helper",
+                "sourceDirectory": "/Users/agurz/Documents/fsbiometrics-helper",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.8716080489219125",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

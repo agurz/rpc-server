@@ -1,0 +1,12 @@
+# install rpclib
+# See: https://github.com/rpclib/rpclib
+if [ ! -f ../lib/rpclib/build/output/lib/librpc.a ]; then
+    cd ../lib/rpclib
+    mkdir build
+    cd build
+    cmake ..
+    cmake --build .
+    cd ../../../scripts
+else
+    echo "librpc is already built"
+fi
